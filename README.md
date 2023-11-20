@@ -48,6 +48,8 @@ Após concluir, entrar na pasta do projeto "cd  olw3-app" e rodar este comando p
 
 OBS: No video falaram em criar um alias para rodar o "sail", mas não vi como faz, e ele roda com um parametro -d.
 
+OBS 2 : o parametro -d serve para não "travar o terminal", como se o comando fosse executado em segundo plano.
+
 Depois de rodar esse comando, o Container com nome do projeto apareceu rodando no Docker Desktop, e você pode testar abrindo http://localhost/.
 
 
@@ -61,6 +63,9 @@ Para abrir a pasta do projeto no VSCode, eu criei uma Unidade de rede Z: mapeada
 
 A pasta do projeto se encontra na pasta /home/user_name
 
+Atualizando, para abrir a pasta do projeto no VSCode, basta rodar no terminal o seguinte comando:
+
+code olw3-app
 
 
 
